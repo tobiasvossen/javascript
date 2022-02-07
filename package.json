@@ -8,8 +8,7 @@
     "test": "jest",
     "test:lint": "eslint . --ext .js",
     "test:format": "prettier --check .",
-    "prepare": "husky install",
-    "build": "echo Add build script here"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
