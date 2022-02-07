@@ -1,5 +1,5 @@
-describe('initial test', () => {
-  it('should pass', async () => {
+describe("initial test", () => {
+  it("should pass", async () => {
     expect(true).toBe(true);
   });
 });

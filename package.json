@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node .",
     "test": "jest",
-    "test:lint": "eslint . --ext .js"
+    "test:lint": "eslint . --ext .js",
+    "test:format": "prettier --check ."
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "eslint": "^8.8.0",
-    "jest": "^27.5.0"
+    "jest": "^27.5.0",
+    "prettier": "^2.5.1"
   }
 }
